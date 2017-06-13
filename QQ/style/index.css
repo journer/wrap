@@ -1,0 +1,382 @@
+html, body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei UI";
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+html, body {
+    color: #333;
+}
+
+body {
+
+    overflow-x: hidden;
+    background :url("../image/background/first.jpg")no-repeat;
+    background-attachment: fixed;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a:link, a:visited {
+    color:#0a7bc7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #12b7f5;
+}
+
+img {
+    border: none;
+}
+
+em {
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+.clearfloat:after {
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*--------header---------*/
+
+.header{
+    height:1238px;
+    width: 100%;
+}
+.header-top{
+    height: 598px;
+    background:url("../image/header/headerbg.jpg") no-repeat center;
+}
+.header-top .logo{
+
+    height:456px;
+    padding:70px;
+    padding-right:0;
+
+}
+/*.cat .flower{
+    margin-top:10px;
+}*/
+.header-top .logo .intro,.load{
+    margin-top:40px;
+}
+
+.load{
+    position: relative;
+
+}
+.header-top .comp{
+    width:720px;
+    height: 687px;
+    margin-top: 72px;
+    background:url("../image/header/comp.png") no-repeat;
+    background-size:720px 687px;
+    -Webkit-background-size:720px 687px;
+    -moz-background-size:720px 687px;
+    -o-background-size:720px 687px;
+}
+.wenzi{
+    position: absolute;
+    top:15px;
+    left:110px;
+    font-size:30px;
+    font-weight:200;
+    color:#fff;
+    letter-spacing: 5px;
+
+}
+.header-down{
+    height:640px;
+    background: #21c7bd;
+}
+.header-down .detail{
+    width: 1200px;
+    margin:0 auto;
+    padding:50px 0 0 385px;
+    height: 340px;
+
+}
+.header-down .detail .des{
+    color: #fff;
+    line-height:36px;
+}
+.header-down .detail .second{
+    margin-top: 52px;
+}
+.detail .border {
+    display: block;
+    border: 2px solid #0880ce;
+    width: 84px;
+    margin-bottom:18px;
+}
+.header-down .affect{
+    height: 300px;
+}
+.header-down .affect .affect-inner{
+    width:1200px;
+    height: 300px;
+    margin:0 auto;
+    /*background: #FFF;*/
+}
+.affect-inner .tabs li{
+    margin-top:70px;
+    float: left;
+    width: 240px;
+    text-align: center;
+}
+.affect-inner .tabs li p{
+    margin-top:15px;
+    color:#087fcd;
+}
+.affect-inner .tabs li:first-of-type{
+    margin-top:77px;
+}
+.affect-inner .tabs li:last-of-type{
+    margin-top:80px;
+}
+    /*--------/header---------*/
+/*----banner-----*/
+.content{
+    width: 100%;
+}
+.firstbg,.firstbg2,.firstbg3,.firstbg4,.firstbg5{
+    width: 100%;
+    height: 650px;
+}
+.firstbg2{
+    background: url("../image/background/second.jpg") no-repeat center center;
+    background-attachment: fixed;
+}
+.firstbg3{
+    background: url("../image/background/three.jpg") no-repeat center center;
+    background-attachment: fixed;
+}
+.firstbg4{
+    background: url("../image/background/four.jpg") no-repeat center center;
+    background-attachment: fixed;
+}
+.firstbg5{
+    background: url("../image/background/five.jpg") no-repeat center center;
+    background-attachment: fixed;
+}
+.banner1,.banner2,.banner3,.banner4,.banner5{
+    height: 665px;
+    background:#21c7bd;
+    background:rgba(255 255 255 .9);
+}
+
+/*---banner1---*/
+.banner1 .banner1-inner{
+    position: relative;
+}
+.banner1-inner{
+    width: 1300px;
+    height: 665px;
+    margin:0 auto;
+    /*background:pink;*/
+}
+.pic1{
+    position: absolute;
+    top:-300px;
+    left: 0;
+    width:850px;
+    height: 765px;
+    background: url("../image/auto/computer.png")no-repeat;
+    background-size:850px 765px;
+    -Webkit-background-size:850px 765px;
+    -moz-background-size:850px 765px;
+    -o-background-size:850px 765px;
+
+}
+.banner1 .accept{
+    margin-top:90px;
+    right: 7px;
+
+}
+
+.accept p:first-of-type,.jianrong p:first-of-type ,.record p:first-of-type,.adv p:first-of-type,.free p:first-of-type{
+    margin-top: 50px;
+}
+.accept p,.jianrong p,.record p,.adv p,.free p{
+    text-align: right;
+    color:#fff;
+    line-height:36px;
+}
+.accept p:last-of-type,.jianrong p:last-of-type,.record p:last-of-type,.adv p:last-of-type,.free p:last-of-type{
+    margin-bottom: 50px;
+}
+.examine{
+    width: 300px;
+    height: 60px;
+    border: 2px solid #fff;
+    display: block;
+    text-align: center;
+    line-height:60px;
+    font-size:30px;
+    color:#fff;
+}
+/*---/banner1---*/
+
+/*---banner2---*/
+
+.banner2 .jianrong,.banner4 .adv{
+    margin-top:90px ;
+}
+.jianrong p,.adv p{
+    text-align: left;
+}
+.pic2{
+
+    width:800px;
+    height: 632px;
+    background: url("../image/jianrongs/jrPic.png")no-repeat;
+    background-size:800px 632px;
+    -Webkit-background-size:800px 632px;
+    -o-background-size:800px 632px;
+    -moz-background-size:800px 632px;
+}
+/*---/banner2---*/
+
+.pic3{
+    width:750px;
+    height: 618px;
+    background: url("../image/record/recordtu.png")no-repeat;
+    background-size:750px 618px;
+    -Webkit-background-size:800px 618px;
+    -o-background-size:750px 618px;
+    -moz-background-size:750px 618px;
+}
+.banner3 .record{
+    margin-top:130px;
+}
+
+/*---banner4---*/
+
+ .banner4 .pic4,.banner5 .pic5{
+    margin-top:75px ;
+}
+ .banner2 .pic2,.banner3 .pic3{
+    margin-top: 50px;
+}
+.pic4{
+    width:650px;
+    height: 504px;
+    background: url("../image/adv/lanjietu.png")no-repeat;
+    background-size:650px 504px;
+    -Webkit-background-size:650px 504px;
+    -o-background-size:650px 504px;
+    -moz-background-size:650px 504px;
+}
+
+/*---/banner4---*/
+/*---banner5---*/
+.banner5 .banner1-inner{
+    position: relative;
+}
+.pic5{
+    width:670px;
+    height: 572px;
+    background: url("../image/free/pc.png")no-repeat;
+    background-size:670px 572px;
+    -Webkit-background-size:670px 572px;
+    -o-background-size:670px 572px;
+    -moz-background-size:670px 572px;
+}
+.hezi{
+    position: absolute;
+    top:250px;
+    left:-45px;
+}
+.hezi li{
+    float: left;
+    margin-right:50px;
+}
+.hezi li:last-of-type{
+    margin-right:0;
+}
+.banner5 .free{
+    margin-top:85px;
+}
+/*---/banner5---*/
+/*----/banner-----*/
+/*----footer---*/
+.footer{
+    height: 384px;
+    width: 100%;
+    background:#2b2d3a;
+    overflow: hidden;
+}
+.footer .footer-con{
+    width: 1200px;
+    margin:0 auto;
+}
+.footer-con .detail{
+    margin-top:50px;
+}
+.detail .prod,.detail .news,.detail .about{
+    float:left;
+    width: 150px;
+    height: 160px;
+    text-align:left;
+    color:#0a7bc7;
+    font-size: 14px;
+    line-height:30px;
+    margin:32px 0 0 0;
+}
+.detail .prod dt,.detail .news dt,.detail .about dt{
+    margin-left:40px;
+}
+.detail .prod{
+    width: 250px;
+}
+.spe{
+    margin-top:20px;
+}
+.product{
+    width: 600px;
+    height: 160px;
+    margin-top:50px;
+}
+.product .erwei{
+
+    float: right;
+    margin-top:30px;
+    margin-right:20px;
+}
+.product .jutu{
+    margin-top: 32px;
+    text-align: left;
+    float: right;
+}
+.product p{
+    color:#0a7bc7;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+/*----/footer---*/
